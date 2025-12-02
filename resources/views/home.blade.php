@@ -13,6 +13,6 @@
     <a href="/about">About</a>
     <a href="/contact">Contact</a>
 </nav>
-<h1 class="text-5xl text-white font-semibold">Hello from About page</h1>
+<h1 class="text-5xl text-white font-semibold">Hello from Home page</h1>
 </body>
 </html>
