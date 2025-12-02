@@ -35,7 +35,8 @@ Route::get('/contact', function () {
 </x-layout>
 
 
-// instea of this -> <?php echo $slot ?>
+// instea of this -> <?php echo // anthing  ?>
 // we can use -> {{  }}
+// because {{ }} = <?php echo ?>
 ```
 
