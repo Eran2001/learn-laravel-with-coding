@@ -1,18 +1,22 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+    use App\Http\Controllers\BookController;
+    use Illuminate\Support\Facades\Route;
 
-// Home page
-Route::get('/', function () {
-    return view('welcome');
-});
 
-// About page
-Route::get('/about', function () {
-    return view('welcome');
-});
+    Route::get('/', function () {
+        return view('welcome');
+    });
 
-// Contact page
-Route::get('/contact', function () {
-    return view('contact');
-});
+
+    Route::get('/about', function () {
+        return view('welcome');
+    });
+
+    Route::get('/contact', function () {
+        return view('contact');
+    });
+
+
+
+    Route::get('/books', [BookController::class, 'index']);
