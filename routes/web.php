@@ -4,14 +4,6 @@
 
 
     Route::get('/', function () {
-        return view('home');
+        return "<h1>Hello World</h1>";
     });
 
-
-    Route::get('/about', function () {
-        return view('about');
-    });
-
-    Route::get('/contact', function () {
-        return view('contact');
-    });
