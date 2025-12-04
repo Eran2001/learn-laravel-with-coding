@@ -5,7 +5,7 @@
 
 
     Route::get('/', function () {
-        return "home";
+        return view('pages.home');
     });
 
     Route::resource('posts',PostController::class);
