@@ -40,3 +40,7 @@ Route::get('/contact', function () {
 // because {{ }} = <?php echo ?>
 ```
 
+## What is a Namespace?
+
+// namespaces are used to organize your classes and avoid naming conflicts. 
+They follow PHP's namespace system and help Laravel automatically load classes using PSR-4 autoloading.
