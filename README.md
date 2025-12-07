@@ -40,3 +40,23 @@ Route::get('/contact', function () {
 // because {{ }} = <?php echo ?>
 ```
 
+## What is a Namespace?
+
+// A namespace is like a folder path for PHP classes. namespaces are used to organize your classes and avoid naming conflicts. 
+They follow PHP's namespace system and help Laravel automatically load classes using PSR-4 autoloading.
+
+```bash
+Example -> namespace App\Http\Controllers;
+
+This means your file is located under app/Http/Controllers/
+```
+
+// Using Namespaces (importing classes)
+
+```bash
+To use a class from a namespace, you import with use.
+
+use App\Models\User;
+
+$user = User::find(1);
+```
